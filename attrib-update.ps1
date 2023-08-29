@@ -3,6 +3,8 @@
 #Install PSScriptAnalyzer
 #This is a static code checker for PS modules & Scripts.
 
+Install-Module -Name PSScriptAnalyzer -Force
+
 
 #Import AD Module
 Import-Module ActiveDirectory
